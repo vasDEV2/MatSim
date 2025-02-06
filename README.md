@@ -6,7 +6,7 @@ consequently initialized producing a comparison between the simulator and the VD
 whole process is finished, the generated data is automatically moved into a folder called DataSetX where
 X is the latest index.
 
-## STEPS TO FOLLOW:
+### STEPS TO FOLLOW:
  
 1. Once the zip files are extracted, execute the "executesim.sh" file by typing "./executesim.sh".
 
@@ -22,7 +22,7 @@ X is the latest index.
 5. The script will finally create the "datasetx" folder into which the newly generated data is backed up. This
    will ensure that you don't need to backup the files before running the next simualtion.
    
- ## KNOWN ISSUES  
+### KNOWN ISSUES  
  
  1. I have tried to make all the paths relative but incase I have missed any, let me know (pls don't).
  
