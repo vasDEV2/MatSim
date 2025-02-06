@@ -1,4 +1,4 @@
-###### READ THIS BEFORE USE #######
+### READ THIS BEFORE USE
 
 This setup will first open a map of waypoints from which waypoints have to be picked; This will then
 open up the simulator and run the simulation. Once the simulation is done, matlab auto-exits. VDM is
@@ -6,31 +6,31 @@ consequently initialized producing a comparison between the simulator and the VD
 whole process is finished, the generated data is automatically moved into a folder called DataSetX where
 X is the latest index.
 
-######## STEPS TO FOLLOW: ##########
+## STEPS TO FOLLOW:
  
-1. ONCE THE ZIP FILES ARE EXTRACTED, EXECUTE THE "ExecuteSim.sh" file by typing "./ExecuteSim.sh".
+1. Once the zip files are extracted, execute the "executesim.sh" file by typing "./executesim.sh".
 
-2. WAIT FOR THE MAP TO SHOW UP. ONCE UP, SELECT THE DESIRED PATH AND CLICK ON 'Export to Workspace". MANUALLY 
-   CLOSE THE MAP TO CONTINUE THE SCRIPT.
+2. Wait for the map to show up. once up, select the desired path and click on 'export to workspace". Manually 
+   close the map to continue the script.
    
-3. THE SIMULATOR WILL START NEXT, WHERE THE CAR WILL FOLLOW THE SELCTED WAYPOINTS. YOU CAN FINISH THE SIMULATION 
-   BY EITHER MANUALLY CLOSING THE SIMULATION WINDOW OR WAITING FOR 300SECS(COMPULSORY TO INITIATE NEXT STEPS).
+3. The simulator will start next, where the car will follow the selcted waypoints. You can finish the simulation 
+   by either manually closing the simulation window or waiting for 300secs(compulsory to initiate next steps).
    
-4. ONCE THE SIMULATION EXITS, THE VDM SCRIPTS WILL RUN, PLOTTING THE MAP. AFTER ANALYZING THE MAP, YOU WILL NEED
-   TO CLOSE IT FOR THE BASH SCRIPT TO PROCEED.
+4. Once the simulation exits, the vdm scripts will run, plotting the map. after analyzing the map, you will need
+   to close it for the bash script to proceed.
    
-5. THE SCRIPT WILL FINALLY CREATE THE "DataSetX" FOLDER INTO WHICH THE NEWLY GENERATED DATA IS BACKED UP. THIS
-   WILL ENSURE THAT YOU DON'T NEED TO BACKUP THE FILES BEFORE RUNNING THE NEXT SIMUALTION.
+5. The script will finally create the "datasetx" folder into which the newly generated data is backed up. This
+   will ensure that you don't need to backup the files before running the next simualtion.
    
- ######## KNOWN ISSUES ############ 
+ ## KNOWN ISSUES  
  
- 1. I HAVE TRIED TO MAKE ALL THE PATHS RELATIVE BUT INCASE I HAVE MISSED ANY, LET ME KNOW.
+ 1. I have tried to make all the paths relative but incase I have missed any, let me know (pls don't).
  
- 2. HIGH FREQUENCY NOISE AS I HAVE ALREADY MENTIONED.
+ 2. High frequency noise as I have already mentioned.
  
- 3. THE WAYPOINT MAP IS QUITE INACCURATE AND YOU NEED TO DO SOME GUESSING AROUND TO MAKE IT FOLLOW THE CORRECT PATH.
-    HIGHLY LIKELY THAT THE CAR WILL ROUGHLY FOLLOW THE SELECTED PATH.
+ 3. The waypoint map is quite inaccurate and you need to do some guessing around to make it follow the correct path.
+    highly likely that the car will roughly follow the selected path.
     
- 4. MATLAB WAS REFUSING TO QUIT IN THE BASH SCRIPT SO I HAVE CREATED THIS WEIRD FLAG SYSTEM FOR IT TO EXIT. LET ME KNOW
-    IF THIS BREAKS.
+ 4. Matlab was refusing to quit in the bash script so I have created this weird flag system for it to exit. Let me know
+    if this breaks.
 
