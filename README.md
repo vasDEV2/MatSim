@@ -26,7 +26,7 @@ X is the latest index.
  
  1. I have tried to make all the paths relative but incase I have missed any, let me know.
  
- 2. High frequency noise as I have already mentioned.
+ 2. High frequency noise in the steering signal.
  
  3. The waypoint map is quite inaccurate and you need to do some guessing around to make it follow the correct path.
     highly likely that the car will roughly follow the selected path.
