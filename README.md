@@ -24,7 +24,7 @@ X is the latest index.
    
 ### KNOWN ISSUES  
  
- 1. I have tried to make all the paths relative but incase I have missed any, let me know (pls don't).
+ 1. I have tried to make all the paths relative but incase I have missed any, let me know.
  
  2. High frequency noise as I have already mentioned.
  
